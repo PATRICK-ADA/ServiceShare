@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XIRoOC7zkimG2UGqpR5pe+S5xkg33z0qNS0LTVdRqJtzVHitLf1ULL8hqLZ+pspFS0zg/jT1BnkEIZ45ruYzqA==",
+  "dgSpecHash": "dberXgl07/2GvaQTNF0y6W6LqnVcIVXoQQeKgxk9q8U8qpICYn4bY3lrFtYux2bYCILUs9Be1viHPMqh1pKaQg==",
   "success": true,
-  "projectFilePath": "/home/donpat/ServiceShare/User/User.csproj",
+  "projectFilePath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/microsoft.aspnetcore.openapi/7.0.12/microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
     "/root/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

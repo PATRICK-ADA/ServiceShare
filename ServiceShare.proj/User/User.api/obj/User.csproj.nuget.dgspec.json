@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/donpat/ServiceShare/User/User.csproj": {}
+    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj": {}
   },
   "projects": {
-    "/home/donpat/ServiceShare/User/User.csproj": {
+    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/donpat/ServiceShare/User/User.csproj",
+        "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
         "projectName": "User",
-        "projectPath": "/home/donpat/ServiceShare/User/User.csproj",
+        "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/donpat/ServiceShare/User/obj/",
+        "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
