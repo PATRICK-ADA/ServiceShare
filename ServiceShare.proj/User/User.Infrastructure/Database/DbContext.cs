@@ -30,7 +30,9 @@ public class UserContext : IdentityDbContext<User>
 	public IdentityDbContext(DbContextOptions<IdentityDbContext> options) : base(options)
 	{
 		
-	}		
+	}	
+	
+}	
 	
 	public protected override void OnModelCreating(ModelBuilder modelBuilder)
 	{
