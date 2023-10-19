@@ -469,7 +469,7 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/donpat/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -477,11 +477,11 @@
       "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
       "projectName": "User",
       "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
-      "packagesPath": "/root/.nuget/packages/",
+      "packagesPath": "/home/donpat/.nuget/packages/",
       "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/donpat/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

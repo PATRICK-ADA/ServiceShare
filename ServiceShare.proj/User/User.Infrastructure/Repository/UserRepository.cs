@@ -26,7 +26,7 @@ public class UserRepository : IUserRepository
 	}
 	
 	
-	Task<User> GetUserByServiceIdAsync(string serviceId)
+	public async Task<User> GetUserByServiceIdAsync(string serviceId)
 	{
 		return await _context.Users.FirstOrDefaultAsync(s => s.ServiceId == serviceId);
 	}
@@ -38,10 +38,8 @@ public class UserRepository : IUserRepository
         .Skip((pageNumber - 1) * pageSize)
         .Take(pageSize)
         .ToListAsync();
-}
-
 	
-	Task<User> GetUserBySubsIdAsync(string subsId)
+	public async Task<User> GetUserBySubsIdAsync(string subsId)
 	{
 		return await _context.Users.FirstOrDefaultAsync(s => s.SubsId == subsId);
 	}
