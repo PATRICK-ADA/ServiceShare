@@ -23,6 +23,7 @@ public class UserRepository : IUserRepository
 	{
 		
 		return await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName);
+		
 	}
 	
 	
@@ -31,13 +32,34 @@ public class UserRepository : IUserRepository
 		return await _context.Users.FirstOrDefaultAsync(s => s.ServiceId == serviceId);
 	}
 	
+	
 	public async Task<List<User>> GetAllUsersByServiceTypeAsync(string serviceType, int pageNumber, int pageSize)
 {
-    return await _context.Users
-        .Where(s => s.ServiceType == serviceType)
-        .Skip((pageNumber - 1) * pageSize)
-        .Take(pageSize)
-        .ToListAsync();
+	return await _context.Users
+		.Where(s => s.ServiceType == serviceType)
+		.Skip((pageNumber - 1) * pageSize)
+		.Take(pageSize)
+		.ToListAsync();
+}
+
+
+public async Task<List<User>>  GetAllUsersBySubsTypeAsync(string subsType, int pageNumber, int pageSize)
+{
+	
+	return await _context.Users.Where(s => s.SubsType == substype)
+	.Skip((pageNumber -1 )*  pageSize)
+	.Take(pageSize)
+	.ToListAsync();
+	
+	
+}
+	
+	public async Task<List<User>> GetAllUsersAsync(int pageNumber, int pageSize)
+	{
+		
+	 return await _context.Users.Skip((pageNumber-1) * pageSize).Take(pageSize).ToListAsync();
+		
+	}
 	
 	public async Task<User> GetUserBySubsIdAsync(string subsId)
 	{

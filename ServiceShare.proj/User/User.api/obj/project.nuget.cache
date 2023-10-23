@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Koj3grGcZTkwU1pUTkLrkv4yLqmyZdPHr3QX5FwjYayU/ukSDRlRQezJSeyK4UjN/Urt0BOuo/JlP2rwIP/CAQ==",
+  "dgSpecHash": "ZAH6v6ynpJaF8VKhW2mjUmc/XertHd2dCP5OLpKuXd8xYsHrtGaV8bP0NtpN+ctyvPVWgnZF6nIIKZIGEqozJQ==",
   "success": true,
   "projectFilePath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
   "expectedPackageFiles": [
+    "/home/donpat/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/donpat/.nuget/packages/microsoft.aspnetcore.openapi/7.0.12/microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
+    "/home/donpat/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/donpat/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/donpat/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/home/donpat/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

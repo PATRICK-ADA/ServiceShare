@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices;
 using System;
+
 namespace Model
 {
 public class User : IdentityUser
@@ -8,8 +9,10 @@ public class User : IdentityUser
 	public string UserName {get; set;} = string.Empty;
 	public string? EmailAddress {get; set;} = string.Empty;
 	public Service ServiceType {get; set;}
-	public SSubsType {get; set;} = string.Empty;
+	
+	public SubsType {get; set;} = string.Empty;
 	public string ServiceId {get; set;} = string.Empty;
+	
 	public string SubsId {get; set;} = string.Empty;
 
   }

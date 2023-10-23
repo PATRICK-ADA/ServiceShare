@@ -4,9 +4,12 @@ public interface IUserRepository
 	Task<User> GetUserByEmailAsync(string email);
 	Task<User> GetUserByUserNameAsync(string userName);
 	Task<User> GetUserByServiceIdAsync(string serviceId);
-	Task<User> GetAllUsersByServiceTypeAsync(string serviceType);
 	Task<User> GetUserBySubsIdAsync(string subsId);
-	Task<Users> GetAllUsersBySubsTypeAsync(string subsType);
+	
+	Task<List<User> GetAllUsersByServiceTypeAsync(string serviceType, int pageNumber, int pageSize);
+	
+	Task<List<User>> GetAllUsersBySubsTypeAsync(string subsType, int pageNumber, int pageSize);
+	Task<List<User>> GetAllUsersAsync(int pageNumber, int pageSize);
 	Task UpdateUserAsync(User user);
 	Task DeleteUserAsync(User user);
 
