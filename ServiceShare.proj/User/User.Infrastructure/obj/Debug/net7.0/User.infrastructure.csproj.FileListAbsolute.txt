@@ -1,0 +1,5 @@
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.csproj.AssemblyReference.cache
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.AssemblyInfoInputs.cache
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.AssemblyInfo.cs
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.csproj.CoreCompileInputs.cache

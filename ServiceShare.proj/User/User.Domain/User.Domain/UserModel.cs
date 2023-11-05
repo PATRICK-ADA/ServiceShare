@@ -1,16 +1,15 @@
 using System.Runtime.InteropServices;
+using Microsoft.AspNetCore.Identity;
 using System;
 
-namespace Model
+namespace UserModel
 {
 public class User : IdentityUser
 {
-	public string UserId {get; set;} = Guid.NewGuid().Tostring();
-	public string UserName {get; set;} = string.Empty;
+	public string UserId {get; set;} = Guid.NewGuid().ToString();
+	public override string UserName {get; set;} = string.Empty;
 	public string? EmailAddress {get; set;} = string.Empty;
-	public Service ServiceType {get; set;}
 	
-	public SubsType {get; set;} = string.Empty;
 	public string ServiceId {get; set;} = string.Empty;
 	
 	public string SubsId {get; set;} = string.Empty;

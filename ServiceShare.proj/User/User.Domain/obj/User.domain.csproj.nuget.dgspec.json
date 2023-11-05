@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.domain/User.domain.csproj": {}
+    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj": {}
   },
   "projects": {
-    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.domain/User.domain.csproj": {
+    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.domain/User.domain.csproj",
+        "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj",
         "projectName": "User.domain",
-        "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.domain/User.domain.csproj",
+        "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.domain/obj/",
+        "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.112/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
         }
       }
     }

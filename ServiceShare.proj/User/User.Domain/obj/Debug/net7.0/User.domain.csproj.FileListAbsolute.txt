@@ -1,0 +1,12 @@
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/Debug/net7.0/User.domain.csproj.AssemblyReference.cache
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/Debug/net7.0/User.domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/Debug/net7.0/User.domain.AssemblyInfoInputs.cache
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/Debug/net7.0/User.domain.AssemblyInfo.cs
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/Debug/net7.0/User.domain.csproj.CoreCompileInputs.cache
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/bin/Debug/net7.0/User.domain.deps.json
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/bin/Debug/net7.0/User.domain.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/bin/Debug/net7.0/User.domain.pdb
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/Debug/net7.0/User.domain.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/Debug/net7.0/refint/User.domain.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/Debug/net7.0/User.domain.pdb
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/Debug/net7.0/ref/User.domain.dll

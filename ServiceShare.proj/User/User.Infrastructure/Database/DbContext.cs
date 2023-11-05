@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace User.Infrastructure.Database
@@ -5,13 +7,13 @@ namespace User.Infrastructure.Database
 	public class UserContext : IdentityDbContext<User>
 	{
 		
-		public Dbset <User> Users {get; set;}
-		public IdentityDbContext(DbContextOptions<IdentityDbContext> options) : base(options)
+		public Dbset<User> Users {get; set;}
+		public UserContext(DbContextOptions<UserContext> options) : base(options)
 		{
 		
 		}		
 	
-		public protected override void OnModelCreating(ModelBuilder modelBuilder)
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			base.OnModelCreating(modelBuilder);
 			modelBuilder.Entity<User>().HasData(
@@ -22,30 +24,6 @@ namespace User.Infrastructure.Database
 				EmailAddress = ""
 			});
 		}
-	
-
-public class UserContext : IdentityDbContext<User>
-{
-	public Dbset <User> Users {get; set;}
-	public IdentityDbContext(DbContextOptions<IdentityDbContext> options) : base(options)
-	{
-		
-	}	
-	
-}	
-	
-	public protected override void OnModelCreating(ModelBuilder modelBuilder)
-	{
-		base.OnModelCreating(modelBuilder);
-		modelBuilder.Entity<User>().HasData(
-		new User
-		{
-			UserId = "1",
-			UserName = "SuperAdmin",
-			EmailAddress = ""
-			});
-		}
- 
 		
 	public override int SaveChanges()
 	{

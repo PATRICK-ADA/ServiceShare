@@ -1,8 +1,13 @@
+using IUserRepo;
+using User.Infrastructure.Database;
+
+namespace ApplicationContext
+{
 public class UserRepository : IUserRepository
 {
-	private readonly UserDbContext _context;
+	private readonly UserContext _context;
 	
-	public UserRepository(UserDbContext context)
+	public UserRepository(UserContext context)
 	{
 		_context = context;
 		
@@ -79,5 +84,5 @@ public async Task<List<User>>  GetAllUsersBySubsTypeAsync(string subsType, int p
 		await _context.SaveChangesAsync();
 	}
 	
-
+ }
 }

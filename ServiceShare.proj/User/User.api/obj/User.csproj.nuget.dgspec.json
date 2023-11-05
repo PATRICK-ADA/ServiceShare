@@ -4,17 +4,74 @@
     "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj": {}
   },
   "projects": {
-    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj": {
+    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/User.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
-        "projectName": "User",
-        "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
-        "packagesPath": "/home/donpat/.nuget/packages/",
-        "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/obj/",
+        "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/User.Application.csproj",
+        "projectName": "User.Application",
+        "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/User.Application.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/donpat/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj": {
+                "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj",
+        "projectName": "User.domain",
+        "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -38,13 +95,165 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/User.infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/User.infrastructure.csproj",
+        "projectName": "User.infrastructure",
+        "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/User.infrastructure.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/User.Application.csproj": {
+                "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/User.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
+        "projectName": "User",
+        "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/User.Application.csproj": {
+                "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/User.Application.csproj"
+              },
+              "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj": {
+                "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj"
+              },
+              "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/User.infrastructure.csproj": {
+                "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/User.infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
             "AutoMapper": {
               "target": "Package",
               "version": "[12.0.1, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -70,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.112/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
         }
       }
     }

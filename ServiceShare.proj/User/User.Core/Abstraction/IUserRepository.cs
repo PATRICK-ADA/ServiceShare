@@ -1,3 +1,10 @@
+using UserModel;
+using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
+
+
+namespace IUserRepo
+{
 public interface IUserRepository
 {
 	Task<User> GetUserByIdAsync(string id);
@@ -6,11 +13,11 @@ public interface IUserRepository
 	Task<User> GetUserByServiceIdAsync(string serviceId);
 	Task<User> GetUserBySubsIdAsync(string subsId);
 	
-	Task<List<User> GetAllUsersByServiceTypeAsync(string serviceType, int pageNumber, int pageSize);
+	Task<List<User>> GetAllUsersByServiceTypeAsync(string serviceType, int pageNumber, int pageSize);
 	
 	Task<List<User>> GetAllUsersBySubsTypeAsync(string subsType, int pageNumber, int pageSize);
 	Task<List<User>> GetAllUsersAsync(int pageNumber, int pageSize);
-	Task UpdateUserAsync(User user);
-	Task DeleteUserAsync(User user);
-
+	Task UpdateUserAsync(string UserId);
+	Task DeleteUserAsync(string UserId);
+ }
 }

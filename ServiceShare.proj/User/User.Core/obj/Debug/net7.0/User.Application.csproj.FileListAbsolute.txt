@@ -1,0 +1,15 @@
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/Debug/net7.0/User.Application.csproj.AssemblyReference.cache
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/Debug/net7.0/User.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/Debug/net7.0/User.Application.AssemblyInfoInputs.cache
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/Debug/net7.0/User.Application.AssemblyInfo.cs
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/Debug/net7.0/User.Application.csproj.CoreCompileInputs.cache
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/bin/Debug/net7.0/User.Application.deps.json
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/bin/Debug/net7.0/User.Application.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/bin/Debug/net7.0/User.Application.pdb
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/bin/Debug/net7.0/User.domain.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/bin/Debug/net7.0/User.domain.pdb
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/Debug/net7.0/User.Application.csproj.CopyComplete
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/Debug/net7.0/User.Application.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/Debug/net7.0/refint/User.Application.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/Debug/net7.0/User.Application.pdb
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/Debug/net7.0/ref/User.Application.dll

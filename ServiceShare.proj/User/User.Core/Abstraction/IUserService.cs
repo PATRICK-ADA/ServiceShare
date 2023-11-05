@@ -1,3 +1,8 @@
+using UserModel;
+using Microsoft.AspNetCore.Identity;
+
+namespace UserServiceInterface
+{
 public interface IUserService
 { 
    	Task<User> GetUserByIdAsync(string id);
@@ -6,8 +11,8 @@ public interface IUserService
 	Task<User> GetUserByServiceIdAsync(string serviceId);
 	Task<User> GetAllUsersByServiceTypeAsync(string serviceType);
 	Task<User> GetUserBySubsIdAsync(string subsId);
-	Task<Users> GetAllUsersBySubsTypeAsync(string subsType);
-	Task UpdateUserAsync(User user);
-	Task DeleteUserAsync(User user);
+	Task<List<User>> GetAllUsersBySubsTypeAsync(string subsType);
+	Task UpdateUserAsync(string id);
+	Task DeleteUserAsync(string id);
 }
-```
+}
