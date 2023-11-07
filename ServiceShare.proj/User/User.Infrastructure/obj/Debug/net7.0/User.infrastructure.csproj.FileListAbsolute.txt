@@ -3,3 +3,17 @@
 /home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.AssemblyInfoInputs.cache
 /home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.AssemblyInfo.cs
 /home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.csproj.CoreCompileInputs.cache
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/bin/Debug/net7.0/User.infrastructure.deps.json
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/bin/Debug/net7.0/User.infrastructure.runtimeconfig.json
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/bin/Debug/net7.0/User.infrastructure.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/bin/Debug/net7.0/User.infrastructure.pdb
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/bin/Debug/net7.0/User.Application.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/bin/Debug/net7.0/User.domain.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/bin/Debug/net7.0/User.Application.pdb
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/bin/Debug/net7.0/User.domain.pdb
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.csproj.CopyComplete
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/refint/User.infrastructure.dll
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.pdb
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/User.infrastructure.genruntimeconfig.cache
+/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/Debug/net7.0/ref/User.infrastructure.dll

@@ -13,11 +13,11 @@ public interface IUserRepository
 	Task<User> GetUserByServiceIdAsync(string serviceId);
 	Task<User> GetUserBySubsIdAsync(string subsId);
 	
-	Task<List<User>> GetAllUsersByServiceTypeAsync(string serviceType, int pageNumber, int pageSize);
+	Task<IEnumerable<User>> GetAllUsersByServiceTypeAsync(string serviceType, int pageNumber, int pageSize);
 	
-	Task<List<User>> GetAllUsersBySubsTypeAsync(string subsType, int pageNumber, int pageSize);
-	Task<List<User>> GetAllUsersAsync(int pageNumber, int pageSize);
-	Task UpdateUserAsync(string UserId);
-	Task DeleteUserAsync(string UserId);
+	Task<IEnumerable<User>> GetAllUsersBySubsTypeAsync(string subsType, int pageNumber, int pageSize);
+	Task<IEnumerable<User>> GetAllUsersAsync(int pageNumber, int pageSize);
+	Task UpdateUserAsync(string userId);
+	Task DeleteUserAsync(string userId);
  }
 }

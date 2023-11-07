@@ -1,13 +1,16 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
+using UserModel;
 
 
-namespace User.Infrastructure.Database
+namespace Infrastructure.Database
 {
 	public class UserContext : IdentityDbContext<User>
 	{
 		
-		public Dbset<User> Users {get; set;}
+		public DbSet<User> Users {get; set;}
+		
 		public UserContext(DbContextOptions<UserContext> options) : base(options)
 		{
 		
@@ -25,27 +28,6 @@ namespace User.Infrastructure.Database
 			});
 		}
 		
-	public override int SaveChanges()
-	{
-		var entries = ChangeTracker
-		.Entries()
-		.Where(e => e.Entity is BaseEntity && (
-		e.State == EntityState.Added
-		|| e.State == EntityState.Modified));
-		
-		foreach (var entityEntry in entries)
-		{
-			((BaseEntity)entityEntry.Entity).LastModified = DateTime.UtcNow;
-			
-			if (entityEntry.State == EntityState.Added)
-			{
-				((BaseEntity)entityEntry.Entity).Created = DateTime.UtcNow;
-			}
-		}
-		
-		return base.SaveChanges();
-	}
-	
    }
  }
 

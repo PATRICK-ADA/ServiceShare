@@ -1,5 +1,8 @@
 using IUserRepo;
-using User.Infrastructure.Database;
+using Infrastructure.Database;
+using UserModel;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace ApplicationContext
 {
@@ -38,7 +41,7 @@ public class UserRepository : IUserRepository
 	}
 	
 	
-	public async Task<List<User>> GetAllUsersByServiceTypeAsync(string serviceType, int pageNumber, int pageSize)
+	public async Task<IEnumerable<User>> GetAllUsersByServiceTypeAsync(string serviceType, int pageNumber, int pageSize)
 {
 	return await _context.Users
 		.Where(s => s.ServiceType == serviceType)
@@ -48,10 +51,10 @@ public class UserRepository : IUserRepository
 }
 
 
-public async Task<List<User>>  GetAllUsersBySubsTypeAsync(string subsType, int pageNumber, int pageSize)
+public async Task<IEnumerable<User>> GetAllUsersBySubsTypeAsync(string subsType, int pageNumber, int pageSize)
 {
 	
-	return await _context.Users.Where(s => s.SubsType == substype)
+	return await _context.Users.Where(s => s.SubsType == subsType)
 	.Skip((pageNumber -1 )*  pageSize)
 	.Take(pageSize)
 	.ToListAsync();
@@ -59,7 +62,7 @@ public async Task<List<User>>  GetAllUsersBySubsTypeAsync(string subsType, int p
 	
 }
 	
-	public async Task<List<User>> GetAllUsersAsync(int pageNumber, int pageSize)
+	public async Task<IEnumerable<User>> GetAllUsersAsync(int pageNumber, int pageSize)
 	{
 		
 	 return await _context.Users.Skip((pageNumber-1) * pageSize).Take(pageSize).ToListAsync();
@@ -71,18 +74,28 @@ public async Task<List<User>>  GetAllUsersBySubsTypeAsync(string subsType, int p
 		return await _context.Users.FirstOrDefaultAsync(s => s.SubsId == subsId);
 	}
 	
-	public async Task UpdateUserAsync(User user)
+	public async Task UpdateUserAsync(string userId)
 	{
-		_context.Users.Update(user);
+		var user =_context.Users.FirstOrDefault(i => i.UserId == userId);
+		
+		if (user != null)
+		
+         _context.Users.Update(user);
+		
 		await _context.SaveChangesAsync();
 	}
 	
-	public async Task DeleteUserAsync(User user)
+	public async Task DeleteUserAsync(string userId)
 	{
 		
+		var user = _context.Users.FirstOrDefault(i => i.UserId == userId);
+		
+		if(user != null)
+
 		_context.Users.Remove(user);
+
 		await _context.SaveChangesAsync();
 	}
 	
- }
+  }
 }

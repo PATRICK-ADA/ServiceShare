@@ -11,7 +11,8 @@ public class User : IdentityUser
 	public string? EmailAddress {get; set;} = string.Empty;
 	
 	public string ServiceId {get; set;} = string.Empty;
-	
+	public string ServiceType {get; set;} = string.Empty;
+	public string SubsType {get; set;} = string.Empty;
 	public string SubsId {get; set;} = string.Empty;
 
   }
