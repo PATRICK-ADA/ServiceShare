@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/User.Application.csproj",
         "projectName": "User.Application",
         "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/User.Application.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/donpat/.nuget/packages/",
         "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/donpat/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -67,11 +67,11 @@
         "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj",
         "projectName": "User.domain",
         "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/User.domain.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/donpat/.nuget/packages/",
         "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/donpat/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -126,11 +126,11 @@
         "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/User.infrastructure.csproj",
         "projectName": "User.infrastructure",
         "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/User.infrastructure.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/donpat/.nuget/packages/",
         "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/donpat/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -209,11 +209,11 @@
         "projectUniqueName": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
         "projectName": "User",
         "projectPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/User.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/donpat/.nuget/packages/",
         "outputPath": "/home/donpat/ServiceShare/ServiceShare.proj/User/User.api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/donpat/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
